@@ -121,7 +121,7 @@ body {
       top: 0;
       width: 100%;
     }
-    @media (max-width: 700px) {
+    @media (max-width: 480px) {
       .menu-button-container {
         display: flex;
       }
@@ -262,7 +262,7 @@ h1, h2 {
 }
 @media (max-width: 480px) {
   .project-bottom-links {
-    margin-top: 5%;
+    margin-top: 20%;
   }
 }
 /* END PROJECTS SECTION */
