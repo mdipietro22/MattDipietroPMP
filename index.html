@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matt Dipietro, PMP</title>
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="stylesheet" href="~/lib/Font-Awesome/css/solid.min.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
@@ -15,6 +16,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="./index.js"></script>
 </head>
 <body>
@@ -22,9 +26,7 @@
       <!-- START NAV -->
       <!--ADD MENU BAR WITH ABOUT PROJECTS CONTACT EMBEDDED-->
       <nav id="navbar" class="top-nav sticky">
-        <div>
-          <!-- Logo -->
-        </div>
+        <div><a><i class="fas fa-solid fa-user-secret"></i></a></div>
         <input id="menu-toggle" type="checkbox" />
         <label class='menu-button-container' for="menu-toggle">
           <div class='menu-button'></div>
@@ -43,7 +45,7 @@
         <a href="#"><img class="profile-pic img-responsive" src="./images/Profile.jpg" alt="Profile picture."></a>
         <h2 class="intro-summary">I'm a transitioning military leader seeking a project management role in the tech industry</h2>
         <button class="btn"><a href="https://docs.google.com/document/d/e/2PACX-1vT4isBsDhdG-cvosjFiMzrIStBvYnz-0GQWfDH7lsGo--mQwWpBwcEr9ta1NH9xWLsvtHX0lhwRBqnQ/pub" target="_blank" class="resume">Resume</button></a>
-        <h2 class="intro-summary">I've also been studying the following programming languages</h2>
+        <h2 class="intro-summary study">I've also been studying the following programming languages</h2>
         <!--Begin coding languages studied icon section-->
         <div class="coding-icons">
           <a><i class="devicon-html5-plain-wordmark" style="color: whitesmoke"></i></a>
@@ -59,7 +61,6 @@
 
     <section id="projects" class="projects-section">
         <h2 class="projects-section-header">Take a look at some of my coding work</h2>
-  
         <div class="projects-grid">
           <a href="https://mdipietro22.github.io/cafe_menu/" target="_blank" class="project project-tile">
             <img class="project-image" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Thumbnail picture of Cafe Menu">
@@ -128,7 +129,7 @@
 
       <section id="contact" class="contact-section">
         <div class="contact-section-header">
-          <h2>Thanks for stopping by</h2>
+          <h2>Thanks for stopping by,</h2>
           <h2>Let me know what you think...</h2>
         </div>
         <div class="contact-links">
