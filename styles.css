@@ -223,7 +223,7 @@ h1, h2 {
 }
 @media (max-width: 28.75em) {
     .projects-section-header {
-      font-size: 4rem;
+      font-size: 2%;
     }
   }
 .projects-grid {
@@ -237,10 +237,10 @@ h1, h2 {
 }
 @media (max-width: 30.625em) {
     .projects-section {
-      padding: 6rem 1rem;
+      padding: 4% 2%;
     }
     .projects-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
       }
     }
 .code {
@@ -266,11 +266,11 @@ a {
     color: white;
 }
 .btn-show-all {
-    font-size: 2rem;
+    font-size: 2%;
     transition: 0.3s ease-out;
 }
 .btn-show-all > i {
-    margin-left: 10px;
+    margin-left: 2%;
     transform: translateX(0);
     transition: transform 0.3s ease-out;
 }
@@ -279,7 +279,7 @@ a {
   }
   
   .btn-show-all:hover > i {
-    transform: translateX(2px);
+    transform: translateX(2%);
   }
   .btn-top {
     margin-top: 2%;
