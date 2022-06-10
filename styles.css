@@ -99,6 +99,9 @@ ul {
     width: 300px;
     border-radius: 50%;
 }
+.resume::after {
+  color: white;
+}
 .intro1 {
     color: whitesmoke;
     font-size: 60px;
@@ -254,6 +257,7 @@ a {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 10px;
+    color: white;
 }
 a {
     text-decoration: none;
