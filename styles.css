@@ -241,6 +241,7 @@ h1, h2 {
     }
     .projects-grid {
         grid-template-columns: 2fr;
+        margin-bottom: 2%;
       }
     }
 .code {
