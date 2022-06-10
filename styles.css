@@ -260,6 +260,11 @@ h1, h2 {
     font-size: 150%;
     padding: 2rem 0.5rem;
 }
+@media (max-width: 480px) {
+  .project-bottom-links {
+    margin-top: 5%;
+  }
+}
 /* END PROJECTS SECTION */
 a {
     text-decoration: none;
