@@ -206,7 +206,8 @@ h1, h2 {
 #projects {
 
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+  border-radius: 0.5%;
+  margin-top: 0;
 }
 .projects-section {
     text-align: center;
@@ -218,7 +219,7 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     color: rgb(182, 178, 178);
-    margin-bottom: 50px;
+    margin-bottom: 1%;
     font-size: 240%;
 }
 @media (max-width: 28.75em) {
@@ -233,7 +234,7 @@ h1, h2 {
     width: 100%;
     max-width: 95%;
     margin: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 @media (max-width: 30.625em) {
     .projects-section {
@@ -252,17 +253,17 @@ h1, h2 {
     color: #ccccd0;
   }
 .project-image {
-    height: calc(100% - 6.8rem);
-    width: 100%;
+    height: 75%;
+    width: 50%;
     object-fit: cover;
 }
 .project-title {
     font-size: 150%;
-    padding: 2rem 0.5rem;
+    padding: 1% 0.5%;
 }
 @media (max-width: 480px) {
   .project-bottom-links {
-    margin-top: 20%;
+    margin-top: 5%;
   }
 }
 /* END PROJECTS SECTION */
