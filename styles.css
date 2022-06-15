@@ -202,7 +202,7 @@ h1, h2 {
   font-size: 500%;
 }
 /* END WELCOME SECTION */
-/* START PROJECTS SECTION */
+/* START PROJECTS SECTION
 #projects {
 
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -266,7 +266,7 @@ h1, h2 {
     margin-top: 5%;
   }
 }
-/* END PROJECTS SECTION */
+ END PROJECTS SECTION */
 a {
     text-decoration: none;
     color: white;
